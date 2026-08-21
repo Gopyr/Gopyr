@@ -13,7 +13,7 @@
 I build software that removes a manual step somewhere — a web dashboard, a Discord bot, an Android app, or a small tool for a Roblox project. Currently studying Informatika (class 1IA14) at Universitas Gunadarma.
 
 ```yaml
-role: Informatics student @ Universitas Gunadarma
+role: Informatika student @ Universitas Gunadarma
 focus: [web platforms, discord bots, android apps, roblox tooling]
 principle: automate the repetitive stuff, ship the rest
 ```
@@ -34,10 +34,8 @@ principle: automate the repetitive stuff, ship the rest
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gopyr&show_icons=true&theme=synthwave&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopyr&layout=compact&theme=synthwave&hide_border=true&langs_count=8"/>
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Gopyr&theme=synthwave&hide_border=true"/>
+<!-- Self-hosted via GitHub Action (lowlighter/metrics) — see .github/workflows/metrics.yml -->
+<img width="100%" src="https://raw.githubusercontent.com/Gopyr/Gopyr/main/github-metrics.svg"/>
 
 </div>
 
