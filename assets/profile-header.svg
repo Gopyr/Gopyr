@@ -1,0 +1,24 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Naufal Brilyant Santoso — developer profile</title>
+  <desc id="desc">A dark, understated developer profile header with geometric accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#16243A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="40" x2="1110" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
+  <path d="M-30 232C168 177 266 298 470 229C648 169 768 51 1010 116C1111 143 1171 117 1230 87" stroke="url(#accent)" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M-30 254C168 199 266 320 470 251C648 191 768 73 1010 138C1111 165 1171 139 1230 109" stroke="url(#accent)" stroke-opacity=".11" stroke-width="2"/>
+  <circle cx="1030" cy="68" r="42" stroke="#60A5FA" stroke-opacity=".34"/>
+  <circle cx="1030" cy="68" r="7" fill="#34D399"/>
+  <circle cx="1090" cy="162" r="5" fill="#60A5FA" fill-opacity=".8"/>
+  <text x="72" y="112" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">Naufal Brilyant Santoso</text>
+  <text x="75" y="153" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Building practical software across web, Android, and automation.</text>
+  <rect x="75" y="190" width="166" height="34" rx="17" fill="#60A5FA" fill-opacity=".12" stroke="#60A5FA" stroke-opacity=".4"/>
+  <text x="158" y="212" text-anchor="middle" fill="#BFDBFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">INFORMATICS STUDENT</text>
+</svg>

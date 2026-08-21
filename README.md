@@ -1,26 +1,57 @@
-# Gopyr
+<div align="center">
+  <img src="./assets/profile-header.png" alt="Naufal Brilyant Santoso developer profile header" width="100%" />
+</div>
 
-I am **Naufal Brilyant Santoso**, an Informatics student at Universitas Gunadarma. I build small, practical software across web applications, Discord automation, Android, and developer tooling.
+<br />
 
-My preference is straightforward: understand the problem, keep the implementation small enough to maintain, and document what the project actually does.
+# Hi, I'm Naufal.
+
+I am an **Informatics student at Universitas Gunadarma** who enjoys turning everyday problems into small, useful pieces of software. My work currently spans **web interfaces, Android applications, Discord automation, and API-backed tools**.
+
+I care about practical scope, readable code, and documentation that describes the project honestly.
+
+## What I build
+
+| Area | What that looks like in my projects |
+| --- | --- |
+| **Web** | React and Vite interfaces with clear user flows and service modules. |
+| **Android** | Kotlin and Jetpack Compose applications for study and productivity workflows. |
+| **Automation** | Discord interactions, small utilities, and repetitive-task helpers. |
+| **Engineering practice** | Environment-based configuration, CI checks, release notes, and explicit limitations. |
 
 ## Selected work
 
-| Repository | What it is | Status |
+These are the projects that best represent what I am learning and building now.
+
+| Project | Focus | Status |
 | --- | --- | --- |
-| [Vclass-App](https://github.com/Gopyr/Vclass-App) | Android companion app for V-Class Gunadarma with course, forum, quiz, grades, calendar, and remote configuration support. | Active prototype |
-| [Payment-Gateaway](https://github.com/Gopyr/Payment-Gateaway) | React/Vite QRIS payment-flow prototype with separate transaction and user service modules. | Prototype |
-| [discord-vercel](https://github.com/Gopyr/discord-vercel) | Plugin-based Discord interactions bot designed for a Vercel deployment. | Starter project |
-| [Advanced-Layer-7-Stress-Test-Tool](https://github.com/Gopyr/Advanced-Layer-7-Stress-Test-Tool) | Controlled HTTP service testing CLI for authorized staging and lab experiments. | Experimental |
+| [**Vclass-App**](https://github.com/Gopyr/Vclass-App) | Android companion app for V-Class Gunadarma with courses, forums, quizzes, grades, calendar, and remote configuration. | Active prototype |
+| [**Payment-Gateaway**](https://github.com/Gopyr/Payment-Gateaway) | React/Vite QRIS payment-flow prototype with separate frontend service modules. | Prototype |
+| [**discord-vercel**](https://github.com/Gopyr/discord-vercel) | Plugin-based Discord interactions bot with a Vercel deployment and read-only status dashboard. | Starter project |
+| [**Advanced Layer 7 Stress Test Tool**](https://github.com/Gopyr/Advanced-Layer-7-Stress-Test-Tool) | Controlled HTTP service testing CLI for authorized staging and lab experiments. | Experimental |
 
 ## Tools I use
 
-JavaScript, TypeScript, React, Node.js, Kotlin, Jetpack Compose, Android, Vercel, Git, and REST APIs.
+`JavaScript` `React` `Node.js` `Vite` `Kotlin` `Jetpack Compose` `Android` `REST APIs` `Vercel` `Git`
 
-## Collaboration
+## How I work
 
-I welcome focused bug reports, reproducible examples, and small pull requests. Please read the contribution and security guidance in the relevant repository before opening an issue.
+I start with the smallest useful version, keep the interface understandable, and document the decisions that matter. When a project is still a prototype, I say so. When a feature depends on an external service, I document that dependency instead of hiding it behind polished language.
 
-## Contact
+## GitHub activity
 
-The most reliable way to discuss a project is through its GitHub issues or a pull request. For general contact, use the links on my [GitHub profile](https://github.com/Gopyr).
+<div align="center">
+  <img src="./github-metrics.svg" alt="GitHub activity metrics for Gopyr" width="100%" />
+</div>
+
+## Open to
+
+I am interested in **focused collaboration, practical feedback, and small open-source contributions**. If you find a reproducible issue or have an idea that fits one of the projects above, an issue or pull request is the best place to start.
+
+## Find me here
+
+- [GitHub](https://github.com/Gopyr)
+- [Public repositories](https://github.com/Gopyr?tab=repositories)
+- [Activity](https://github.com/Gopyr?tab=overview&from=2026-01-01&to=2026-12-31)
+
+<sub>Built with curiosity, shipped incrementally.</sub>
