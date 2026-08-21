@@ -1,39 +1,57 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:334155&height=180&section=header&text=Naufal%20Brilyant%20Santoso&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=Gopyr%20%E2%80%94%20Informatika%20%40%20Universitas%20Gunadarma&descAlignY=65&descSize=16&animation=fadeIn" width="100%"/>
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Naufal%20Brilyant%20Santoso&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=aka%20Gopyr%20%E2%80%94%20Informatika%20Student%20%40%20Universitas%20Gunadarma&descAlignY=55&descSize=18&animation=fadeIn"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=1200&color=38BDF8&center=true&vCenter=true&width=560&lines=Web+Apps+%7C+Discord+Bots+%7C+Android;Automating+the+repetitive+stuff;Shipping+one+project+at+a+time" alt="typing"/>
+
+</div>
 
 <br>
 
+## 🧭 About
+
+I build software that removes a manual step somewhere — a web dashboard, a Discord bot, an Android app, or a small tool for a Roblox project. Currently studying Informatika (class 1IA14) at Universitas Gunadarma.
+
 ```yaml
-role: Informatika student @ Universitas Gunadarma
-class: 1IA14
-focus: web apps, Discord bots, Android, Roblox tooling
-approach: automate the repetitive stuff, ship the rest
+role: Informatics student @ Universitas Gunadarma
+focus: [web platforms, discord bots, android apps, roblox tooling]
+principle: automate the repetitive stuff, ship the rest
 ```
 
 <br>
 
-## stack
+## 🛠️ Stack
 
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,py,react,nextjs,androidstudio,discord&theme=dark" />
+<div align="center">
 
-<br>
-<br>
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,py,androidstudio,discord,git,vscode&theme=dark&perline=10"/>
 
-## stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=Gopyr&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopyr&layout=compact&theme=dark&hide_border=true" height="165"/>
+</div>
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gopyr&theme=dark&hide_border=true" width="100%"/>
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Gopyr&show_icons=true&theme=synthwave&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopyr&layout=compact&theme=synthwave&hide_border=true&langs_count=8"/>
+
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Gopyr&theme=synthwave&hide_border=true"/>
+
+</div>
 
 <br>
 
-## contact
+## 🔗 Connect
 
-<img src="https://skillicons.dev/icons?i=github,discord&theme=dark" />
+<div align="center">
 
-**GitHub:** [github.com/Gopyr](https://github.com/Gopyr)
+<a href="https://github.com/Gopyr"><img src="https://skillicons.dev/icons?i=github&theme=dark"/></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=discord&theme=dark"/></a>
+
+</div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:334155&height=100&section=footer" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
