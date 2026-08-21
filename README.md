@@ -10,7 +10,7 @@
 
 ## 🧭 About
 
-I build software that removes a manual step somewhere — a web dashboard, a Discord bot, an Android app, or a small tool for a Roblox project. Currently studying Informatika (class 1IA14) at Universitas Gunadarma.
+I build software that removes a manual step somewhere — a web dashboard, a Discord bot, an Android app, or a small tool for a Roblox project. Currently studying Informatika at Universitas Gunadarma.
 
 ```yaml
 role: Informatika student @ Universitas Gunadarma
