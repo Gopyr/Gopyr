@@ -10,7 +10,7 @@ I am an **Informatics student at Universitas Gunadarma** who enjoys turning ever
 
 I care about practical scope, readable code, and documentation that describes the project honestly.
 
-> **Flagship project:** [GP-1](https://github.com/Gopyr/GP-1) is my main performance and resilience research toolkit, built around explicit modes, reproducible experiments, and measured results. Its latest public-network study records gateway limits, target-side latency, CPU, memory, and controlled 503 failures.
+> **Flagship project:** [GP-1](https://github.com/Gopyr/GP-1) is my main performance and resilience research toolkit, built around explicit modes, reproducible experiments, and measured results. Its latest controlled saturation run ramped a project-owned loopback target from 25 to 400 workers, recording 287.81 MiB and 4,605 requests in the highest stage with 476.07 ms target p95 and no HTTP failures.
 
 ## What I build
 
@@ -27,7 +27,7 @@ GP-1 is the main project in this portfolio. The other repositories show the web,
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| [**GP-1**](https://github.com/Gopyr/GP-1) | Flagship HTTP performance and resilience toolkit with mode-based experiments, reproducible localhost data, and structured latency/error reports. | Main project |
+| [**GP-1**](https://github.com/Gopyr/GP-1) | Flagship HTTP performance and resilience toolkit with mode-based experiments, controlled saturation ramps, target telemetry, and structured latency/error reports. | Main project |
 | [**Vclass-App**](https://github.com/Gopyr/Vclass-App) | Android companion app for V-Class Gunadarma with courses, forums, quizzes, grades, calendar, and remote configuration. | Active prototype |
 | [**Payment-Gateaway**](https://github.com/Gopyr/Payment-Gateaway) | React/Vite QRIS payment-flow prototype with separate frontend service modules. | Prototype |
 | [**discord-vercel**](https://github.com/Gopyr/discord-vercel) | Plugin-based Discord interactions bot with a Vercel deployment and read-only status dashboard. | Starter project |
