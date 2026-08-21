@@ -1,55 +1,26 @@
-<div align="center">
+# Gopyr
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=260&section=header&text=Naufal%20Brilyant%20Santoso&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=aka%20Gopyr%20%E2%80%94%20Informatika%20Student%20%40%20Universitas%20Gunadarma&descAlignY=55&descSize=18&animation=fadeIn"/>
+I am **Naufal Brilyant Santoso**, an Informatics student at Universitas Gunadarma. I build small, practical software across web applications, Discord automation, Android, and developer tooling.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=2800&pause=1200&color=38BDF8&center=true&vCenter=true&width=560&lines=Web+Apps+%7C+Discord+Bots+%7C+Android;Automating+the+repetitive+stuff;Shipping+one+project+at+a+time" alt="typing"/>
+My preference is straightforward: understand the problem, keep the implementation small enough to maintain, and document what the project actually does.
 
-</div>
+## Selected work
 
-<br>
+| Repository | What it is | Status |
+| --- | --- | --- |
+| [Vclass-App](https://github.com/Gopyr/Vclass-App) | Android companion app for V-Class Gunadarma with course, forum, quiz, grades, calendar, and remote configuration support. | Active prototype |
+| [Payment-Gateaway](https://github.com/Gopyr/Payment-Gateaway) | React/Vite QRIS payment-flow prototype with separate transaction and user service modules. | Prototype |
+| [discord-vercel](https://github.com/Gopyr/discord-vercel) | Plugin-based Discord interactions bot designed for a Vercel deployment. | Starter project |
+| [Advanced-Layer-7-Stress-Test-Tool](https://github.com/Gopyr/Advanced-Layer-7-Stress-Test-Tool) | Controlled HTTP service testing CLI for authorized staging and lab experiments. | Experimental |
 
-## 🧭 About
+## Tools I use
 
-I build software that removes a manual step somewhere — a web dashboard, a Discord bot, an Android app, or a small tool for a Roblox project. Currently studying Informatika at Universitas Gunadarma.
+JavaScript, TypeScript, React, Node.js, Kotlin, Jetpack Compose, Android, Vercel, Git, and REST APIs.
 
-```yaml
-role: Informatika student @ Universitas Gunadarma
-focus: [web platforms, discord bots, android apps, roblox tooling]
-principle: automate the repetitive stuff, ship the rest
-```
+## Collaboration
 
-<br>
+I welcome focused bug reports, reproducible examples, and small pull requests. Please read the contribution and security guidance in the relevant repository before opening an issue.
 
-## 🛠️ Stack
+## Contact
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,react,nextjs,py,androidstudio,discord,git,vscode&theme=dark&perline=10"/>
-
-</div>
-
-<br>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<!-- Self-hosted via GitHub Action (lowlighter/metrics) — see .github/workflows/metrics.yml -->
-<img width="100%" src="https://raw.githubusercontent.com/Gopyr/Gopyr/main/github-metrics.svg"/>
-
-</div>
-
-<br>
-
-## 🔗 Connect
-
-<div align="center">
-
-<a href="https://github.com/Gopyr"><img src="https://skillicons.dev/icons?i=github&theme=dark"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=discord&theme=dark"/></a>
-
-</div>
-
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer"/>
+The most reliable way to discuss a project is through its GitHub issues or a pull request. For general contact, use the links on my [GitHub profile](https://github.com/Gopyr).
