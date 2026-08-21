@@ -10,7 +10,7 @@ I am an **Informatics student at Universitas Gunadarma** who enjoys turning ever
 
 I care about practical scope, readable code, and documentation that describes the project honestly.
 
-> **Flagship project:** [GP-1](https://github.com/Gopyr/GP-1) is my main performance and resilience research toolkit, built around explicit modes, reproducible experiments, and measured results.
+> **Flagship project:** [GP-1](https://github.com/Gopyr/GP-1) is my main performance and resilience research toolkit, built around explicit modes, reproducible experiments, and measured results. Its latest public-network study records gateway limits, target-side latency, CPU, memory, and controlled 503 failures.
 
 ## What I build
 
