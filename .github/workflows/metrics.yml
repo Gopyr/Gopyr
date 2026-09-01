@@ -22,6 +22,9 @@ jobs:
           config_timezone: Asia/Jakarta
           config_padding: 10, 12
           config_animations: yes
+          # Isometric 3D commit calendar (full year) - centerpiece
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           # Language breakdown (Most used languages stacked bar)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
