@@ -12,6 +12,7 @@
 * Lab Board dashboard for GP-1 reports
 * VClass offline sync engine in Kotlin
 * EdgeShield: hardened anti-DDoS fork, live-protecting this VPS from floods
+* OpenRA mod: 8 new tank & ship units (M1 Abrams, Battlecruiser, SSBN)
 
 ## Selected work
 | Project | What it is | Link |
@@ -21,6 +22,7 @@
 | VClass Sync | Offline first sync engine for VClass | [Gopyr/vclass-sync](https://github.com/Gopyr/vclass-sync) |
 | TraceLens | Local proxy that captures latency and status | [Gopyr/tracelens](https://github.com/Gopyr/tracelens) |
 | EdgeShield | OpenResty anti-DDoS fork, hardened & tested live against floods | [Gopyr/Nginx-Lua-Anti-DDoS](https://github.com/Gopyr/Nginx-Lua-Anti-DDoS) |
+| OpenRA Mod | Fork of OpenRA with 8 modern tank & ship units added | [Gopyr/OpenRA](https://github.com/Gopyr/OpenRA) |
 | Vclass App | Android companion for V-Class Gunadarma | [Gopyr/Vclass-App](https://github.com/Gopyr/Vclass-App) |
 
 More on [repositories](https://github.com/Gopyr?tab=repositories). Older experiment `Advanced Layer 7 Stress Test Tool` is deprecated, use GP-1.
