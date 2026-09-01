@@ -1,49 +1,38 @@
 <div align="center">
- <img src="./assets/profile-header.png" alt="Gopyr — Naufal Brilyant Santoso" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Gopyr profile header" width="100%" />
 </div>
 
-# Gopyr — mostly breaking things, then fixing them
+# Gopyr
+**Informatics student at Gunadarma. I build small useful software and ship it.**
 
-Informatics student @ **Universitas Gunadarma** — I build small, useful software across **web, Android, and automation**. I like readable code, honest docs, and shipping incrementally.
+> [GP-1](https://github.com/Gopyr/GP-1) is my main project. Reproducible HTTP performance toolkit. Lab run 25 to 400 workers, 4605 req, 287 MiB, p95 476 ms, 0 failed on a loopback target I own. [Report](https://github.com/Gopyr/GP-1/blob/main/experiments/results/saturation-2026-08-22/SATURATION-REPORT.md)
 
-> **[GP-1](https://github.com/Gopyr/GP-1)** — reproducible HTTP performance toolkit. Latest lab run: `25→400 workers` · `4,605 req` · `287.81 MiB` · `p95 476.07 ms` · `0 failures` — all measured on a project-owned loopback target.
+## Currently building
+* GP-1 v0.2.0 with compare view and HTML reports
+* Lab Board dashboard for GP-1 reports
+* VClass offline sync engine in Kotlin
 
----
-
-### What I ship
-
-| Area | Stack | Proof |
+## Selected work
+| Project | What it is | Link |
 |---|---|---|
-| **Web** | React / Vite / API modules | [Payment-Gateway](https://github.com/Gopyr/Payment-Gateaway) · QRIS flow prototype |
-| **Android** | Kotlin / Jetpack Compose | [Vclass-App](https://github.com/Gopyr/Vclass-App) · V-Class companion (courses, forum, quiz) |
-| **Automation** | Node / Discord API | [discord-vercel](https://github.com/Gopyr/discord-vercel) · plugin bot + dashboard |
-| **Lab tools** | Python · CLI | [autorecon](https://github.com/Gopyr/autorecon) · [subenum](https://github.com/Gopyr/subenum) · [logparse](https://github.com/Gopyr/logparse) · [syscheck](https://github.com/Gopyr/syscheck) |
+| GP-1 | HTTP performance toolkit. Bounded, mode based, evidence first | [Gopyr/GP-1](https://github.com/Gopyr/GP-1) |
+| Lab Board | Visual board for GP-1 JSON reports | [Gopyr/labboard](https://github.com/Gopyr/labboard) |
+| VClass Sync | Offline first sync engine for VClass | [Gopyr/vclass-sync](https://github.com/Gopyr/vclass-sync) |
+| TraceLens | Local proxy that captures latency and status | [Gopyr/tracelens](https://github.com/Gopyr/tracelens) |
+| Vclass App | Android companion for V-Class Gunadarma | [Gopyr/Vclass-App](https://github.com/Gopyr/Vclass-App) |
 
-### Spotlight
+More on [repositories](https://github.com/Gopyr?tab=repositories). Older experiment `Advanced Layer 7 Stress Test Tool` is deprecated, use GP-1.
 
-**[GP-1](https://github.com/Gopyr/GP-1)** is the main project — bounded by default, mode-based, and evidence-first. No attack modes, no evasion. Reports include throughput, MiB/s, status codes, and p50/p95/p99. See [saturation report](https://github.com/Gopyr/GP-1/blob/main/experiments/results/saturation-2026-08-22/SATURATION-REPORT.md).
-
-> Previous experiment `Advanced-Layer-7-Stress-Test-Tool` is now **deprecated — use GP-1**.
-
----
-
-### How I work
-- Start with the smallest useful version
-- Keep the interface obvious, document the limits honestly
-- Prototype = labelled as prototype, no polished fiction
-
-### Stack
-`JavaScript` `TypeScript` `React` `Vite` `Kotlin` `Compose` `Node.js` `Python` `REST` `Git`
-
----
+## Stack
+`TypeScript` `React` `Vite` `Kotlin` `Compose` `Node` `Python` `REST` `Git`
 
 <div align="center">
- <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
+  <img src="./github-metrics.svg" alt="metrics" width="100%" />
 </div>
 
-### Let's build
-Open an issue or PR if you have a reproducible bug or a focused idea. I review small, well-scoped contributions fast.
+## Contact
+Open an issue or PR for bugs and ideas. I review small focused contributions fast.
 
-**Find me:** [github.com/Gopyr](https://github.com/Gopyr) · [repos](https://github.com/Gopyr?tab=repositories) · [activity](https://github.com/Gopyr?tab=overview&from=2026-01-01&to=2026-12-31)
+[github.com/Gopyr](https://github.com/Gopyr) · [activity](https://github.com/Gopyr?tab=overview&from=2026-01-01&to=2026-12-31)
 
 <sub>Built with curiosity, shipped incrementally.</sub>
