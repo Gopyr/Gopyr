@@ -1,60 +1,49 @@
 <div align="center">
-  <img src="./assets/profile-header.png" alt="Naufal Brilyant Santoso developer profile header" width="100%" />
+  <img src="./assets/profile-header.png" alt="Gopyr — Naufal Brilyant Santoso" width="100%" />
 </div>
 
-<br />
+# Gopyr — mostly breaking things, then fixing them
 
-# Hi, I'm Naufal.
+Informatics student @ **Universitas Gunadarma** — I build small, useful software across **web, Android, and automation**. I like readable code, honest docs, and shipping incrementally.
 
-I am an **Informatics student at Universitas Gunadarma** who enjoys turning everyday problems into small, useful pieces of software. My work currently spans **web interfaces, Android applications, Discord automation, and API-backed tools**.
+> **Flagship: [GP-1](https://github.com/Gopyr/GP-1)** — reproducible HTTP performance toolkit. Latest lab run: `25→400 workers` · `4,605 req` · `287.81 MiB` · `p95 476.07 ms` · `0 failures` — all measured on a project-owned loopback target.
 
-I care about practical scope, readable code, and documentation that describes the project honestly.
+---
 
-> **Flagship project:** [GP-1](https://github.com/Gopyr/GP-1) is my main performance and resilience research toolkit, built around explicit modes, reproducible experiments, and measured results. Its latest controlled saturation run ramped a project-owned loopback target from 25 to 400 workers, recording 287.81 MiB and 4,605 requests in the highest stage with 476.07 ms target p95 and no HTTP failures.
+### What I ship
 
-## What I build
+| Area | Stack | Proof |
+|---|---|---|
+| **Web** | React / Vite / API modules | [Payment-Gateway](https://github.com/Gopyr/Payment-Gateaway) · QRIS flow prototype |
+| **Android** | Kotlin / Jetpack Compose | [Vclass-App](https://github.com/Gopyr/Vclass-App) · V-Class companion (courses, forum, quiz) |
+| **Automation** | Node / Discord API | [discord-vercel](https://github.com/Gopyr/discord-vercel) · plugin bot + dashboard |
+| **Lab tools** | Python · CLI | [autorecon](https://github.com/Gopyr/autorecon) · [subenum](https://github.com/Gopyr/subenum) · [logparse](https://github.com/Gopyr/logparse) · [syscheck](https://github.com/Gopyr/syscheck) |
 
-| Area | What that looks like in my projects |
-| --- | --- |
-| **Web** | React and Vite interfaces with clear user flows and service modules. |
-| **Android** | Kotlin and Jetpack Compose applications for study and productivity workflows. |
-| **Automation** | Discord interactions, small utilities, and repetitive-task helpers. |
-| **Engineering practice** | Environment-based configuration, CI checks, release notes, and explicit limitations. |
+### Spotlight
 
-## Selected work
+**[GP-1](https://github.com/Gopyr/GP-1)** is the main project — bounded by default, mode-based, and evidence-first. No attack modes, no evasion. Reports include throughput, MiB/s, status codes, and p50/p95/p99. See [saturation report](https://github.com/Gopyr/GP-1/blob/main/experiments/results/saturation-2026-08-22/SATURATION-REPORT.md).
 
-GP-1 is the main project in this portfolio. The other repositories show the web, Android, and automation work around it.
+> Previous experiment `Advanced-Layer-7-Stress-Test-Tool` is now **deprecated — use GP-1**.
 
-| Project | Focus | Status |
-| --- | --- | --- |
-| [**GP-1**](https://github.com/Gopyr/GP-1) | Flagship HTTP performance and resilience toolkit with mode-based experiments, controlled saturation ramps, target telemetry, and structured latency/error reports. | Main project |
-| [**Vclass-App**](https://github.com/Gopyr/Vclass-App) | Android companion app for V-Class Gunadarma with courses, forums, quizzes, grades, calendar, and remote configuration. | Active prototype |
-| [**Payment-Gateaway**](https://github.com/Gopyr/Payment-Gateaway) | React/Vite QRIS payment-flow prototype with separate frontend service modules. | Prototype |
-| [**discord-vercel**](https://github.com/Gopyr/discord-vercel) | Plugin-based Discord interactions bot with a Vercel deployment and read-only status dashboard. | Starter project |
-| [**Advanced Layer 7 Stress Test Tool**](https://github.com/Gopyr/Advanced-Layer-7-Stress-Test-Tool) | Controlled HTTP service testing CLI for authorized staging and lab experiments. | Experimental |
+---
 
-## Tools I use
+### How I work
+- Start with the smallest useful version
+- Keep the interface obvious, document the limits honestly
+- Prototype = labelled as prototype, no polished fiction
 
-`JavaScript` `Node.js` `HTTP` `Performance testing` `React` `Vite` `Kotlin` `Jetpack Compose` `Android` `REST APIs` `Git`
+### Stack
+`JavaScript` `TypeScript` `React` `Vite` `Kotlin` `Compose` `Node.js` `Python` `REST` `Git`
 
-## How I work
-
-I start with the smallest useful version, keep the interface understandable, and document the decisions that matter. When a project is still a prototype, I say so. When a feature depends on an external service, I document that dependency instead of hiding it behind polished language.
-
-## GitHub activity
+---
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub activity metrics for Gopyr" width="100%" />
+  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
 </div>
 
-## Open to
+### Let's build
+Open an issue or PR if you have a reproducible bug or a focused idea. I review small, well-scoped contributions fast.
 
-I am interested in **focused collaboration, practical feedback, and small open-source contributions**. If you find a reproducible issue or have an idea that fits one of the projects above, an issue or pull request is the best place to start.
-
-## Find me here
-
-- [GitHub](https://github.com/Gopyr)
-- [Public repositories](https://github.com/Gopyr?tab=repositories)
-- [Activity](https://github.com/Gopyr?tab=overview&from=2026-01-01&to=2026-12-31)
+**Find me:** [github.com/Gopyr](https://github.com/Gopyr) · [repos](https://github.com/Gopyr?tab=repositories) · [activity](https://github.com/Gopyr?tab=overview&from=2026-01-01&to=2026-12-31)
 
 <sub>Built with curiosity, shipped incrementally.</sub>
