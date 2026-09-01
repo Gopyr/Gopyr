@@ -18,6 +18,45 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      # Scale radar chart to 0..1K (drop the 10K outer ring + label)
+      - name: Scale radar to 1K
+        run: |
+          python3 - <<'EOF'
+          import os
+
+          for name in ["profile-green.svg", "profile-green-animate.svg"]:
+              path = f"profile-3d-contrib/{name}"
+              if not os.path.exists(path):
+                  continue
+              svg = open(path).read()
+
+              ring_lines = [
+                  '<line x1="0" y1="-156" x2="148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>',
+                  '<line x1="148.36" y1="-48.21" x2="91.69" y2="126.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>',
+                  '<line x1="91.69" y1="126.21" x2="-91.69" y2="126.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>',
+                  '<line x1="-91.69" y1="126.21" x2="-148.36" y2="-48.21" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>',
+                  '<line x1="-148.36" y1="-48.21" x2="0" y2="-156" class="stroke-weak" style="stroke-dasharray: 4 4; stroke-width: 1px;"></line>',
+              ]
+              for rl in ring_lines:
+                  svg = svg.replace(rl, '')
+
+              spines = [
+                  ('x1="0" y1="-31.2" x2="0" y2="-156"', 'x1="0" y1="-31.2" x2="0" y2="-124.8"'),
+                  ('x1="29.67" y1="-9.64" x2="148.36" y2="-48.21"', 'x1="29.67" y1="-9.64" x2="118.69" y2="-38.57"'),
+                  ('x1="18.34" y1="25.24" x2="91.69" y2="126.21"', 'x1="18.34" y1="25.24" x2="73.36" y2="100.97"'),
+                  ('x1="-18.34" y1="25.24" x2="-91.69" y2="126.21"', 'x1="-18.34" y1="25.24" x2="-73.36" y2="100.97"'),
+                  ('x1="-29.67" y1="-9.64" x2="-148.36" y2="-48.21"', 'x1="-29.67" y1="-9.64" x2="-118.69" y2="-38.57"'),
+              ]
+              for old, new in spines:
+                  svg = svg.replace(old, new)
+
+              svg = svg.replace('<text style="font-size: 13px;" text-anchor="start" dominant-baseline="auto" x="3.12" y="-156" class="fill-weak">10K</text>', '')
+
+              open(path, "w").write(svg)
+              print(f"scaled {name}")
+          EOF
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
