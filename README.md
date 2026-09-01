@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./assets/profile-header.png" alt="Gopyr — Naufal Brilyant Santoso" width="100%" />
+ <img src="./assets/profile-header.png" alt="Gopyr — Naufal Brilyant Santoso" width="100%" />
 </div>
 
 # Gopyr — mostly breaking things, then fixing them
 
 Informatics student @ **Universitas Gunadarma** — I build small, useful software across **web, Android, and automation**. I like readable code, honest docs, and shipping incrementally.
 
-> **Flagship: [GP-1](https://github.com/Gopyr/GP-1)** — reproducible HTTP performance toolkit. Latest lab run: `25→400 workers` · `4,605 req` · `287.81 MiB` · `p95 476.07 ms` · `0 failures` — all measured on a project-owned loopback target.
+> **[GP-1](https://github.com/Gopyr/GP-1)** — reproducible HTTP performance toolkit. Latest lab run: `25→400 workers` · `4,605 req` · `287.81 MiB` · `p95 476.07 ms` · `0 failures` — all measured on a project-owned loopback target.
 
 ---
 
@@ -38,7 +38,7 @@ Informatics student @ **Universitas Gunadarma** — I build small, useful softwa
 ---
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
+ <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
 </div>
 
 ### Let's build
