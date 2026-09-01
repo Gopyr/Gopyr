@@ -3,7 +3,7 @@ name: Metrics
 on:
   schedule:
     - cron: "0 * * * *"   # jalan otomatis tiap 1 jam
-  workflow_dispatch:        # bisa dijalankan manual dari tab Actions
+  workflow_dispatch:
   push:
     branches: ["main"]
 
@@ -20,10 +20,19 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
+          config_theme: github-dark
+          # Isometric 3D commit calendar (full year)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # Language breakdown (donut)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
+          # Lines of code
           plugin_lines: yes
+          # Star count
           plugin_stars: yes
           plugin_stars_limit: 0
+          # Traffic (visitors)
+          plugin_traffic: yes
