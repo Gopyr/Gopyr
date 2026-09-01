@@ -3,5 +3,5 @@
 </div>
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="Gopyr GitHub metrics" width="100%" />
+  <img src="./profile-3d-contrib/profile-green.svg" alt="3D Contributions" />
 </div>
