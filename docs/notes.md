@@ -1,0 +1,1 @@
+- 2026-10-30 fix: correct off-by-one in pagination
