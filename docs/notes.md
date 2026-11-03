@@ -1,1 +1,2 @@
 - 2026-10-30 fix: correct off-by-one in pagination
+- 2026-11-03 chore: prune unused dependencies
