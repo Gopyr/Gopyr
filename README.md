@@ -45,6 +45,10 @@ const Gopar = {
   <img src="./profile-3d-contrib/profile-green.svg" alt="3D Contributions" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Gopyr/Gopyr/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%" />
+</div>
+
 ## 👁️ Visitors
 
 <div align="center">
