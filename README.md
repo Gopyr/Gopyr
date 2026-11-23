@@ -45,16 +45,12 @@ const Gopar = {
   <img src="./profile-3d-contrib/profile-green.svg" alt="3D Contributions" width="100%" />
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Gopyr/Gopyr/output/github-contribution-grid-snake-dark.svg" alt="snake" width="100%" />
-</div>
-
 ## 👁️ Visitors
 
 <div align="center">
-  <img src="https://count.getloli.com/@Gopyr?name=Gopyr&theme=moe-regular&padding=6&offset=4&align=center&scale=1.4&pixelated=1&darkmode=auto" alt="moe visitors" width="320" />
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=Gopyr&style=flat-square&color=0d1117&labelColor=0d1117&label=visitors" alt="visitors" />
+  <img src="https://hits.sh/github.com/Gopyr/Gopyr.svg?style=for-the-badge&label=profile%20views&color=3B82F6" alt="views" />
+  <br/><br/>
+  <img src="https://count.getloli.com/@Gopyr?name=Gopyr&theme=moe-regular&padding=6&offset=4&align=center&scale=1.4&pixelated=1&darkmode=auto" alt="moe counter" width="320" />
 </div>
 
 ## 📫 Reach Me
