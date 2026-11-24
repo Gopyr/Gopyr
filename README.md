@@ -8,20 +8,6 @@
   <img src="./assets/itachi-banner.gif" alt="Itachi Uchiha" width="100%" />
 </p>
 
-## 🧑‍💻 About
-
-```js
-const Gopar = {
-  name: "Gopar",
-  username: "Gopyr",
-  country: "Indonesia",
-  focus: ["Automation", "Bot Development", "Self-hosted Infrastructure"],
-  languages: ["JavaScript", "Kotlin", "Python", "Go"],
-  tools: ["Node.js", "Nginx + Lua", "Docker", "Cloudflare Tunnel"],
-  funFact: "Runs a full workspace + VPS panel + bot empire from one dashboard"
-};
-```
-
 ## ⚡ Tech Stack
 
 <p align="center">
