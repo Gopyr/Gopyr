@@ -5,7 +5,7 @@
 <h1 align="center">Hi 👋, I'm Gopar (Gopyr)</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=italic&size=24&pause=2000&center=true&width=520&lines=INDONESIAN+DEVELOPER;BACKEND+%2B+BOT+DEVELOPER;SELF-HOSTED+INFRASTRUCTURE;GAME+LIBRARY+ARCHITECT" alt="typing" />
+  <img src="./assets/itachi-banner.gif" alt="Itachi Uchiha" width="100%" />
 </p>
 
 ## 🧑‍💻 About
