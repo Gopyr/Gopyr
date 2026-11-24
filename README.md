@@ -2,8 +2,6 @@
   <img src="./assets/profile-header.svg" alt="Gopyr profile header" width="100%" />
 </div>
 
-<h1 align="center">Hi 👋, I'm Gopar (Gopyr)</h1>
-
 <p align="center">
   <img src="./assets/itachi-banner.gif" alt="Itachi Uchiha" width="100%" />
 </p>
