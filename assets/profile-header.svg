@@ -48,11 +48,14 @@
 <text x="760" y="216" fill="#86efac" font-family="monospace" font-size="11">  proxy :3888 . capture on</text>
 <!-- live spark bar -->
 <g transform="translate(760,240)">
+  <clipPath id="sparkclip"><rect x="2" y="2" width="38" height="20" rx="4"/></clipPath>
   <rect x="0" y="0" width="42" height="24" rx="6" fill="#1e293b"/>
-  <rect x="6" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="18;8;16;12;18" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="6;16;8;12;6" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="12" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="14;18;10;17;14" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="10;6;14;7;10" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="18" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="12;15;18;9;12" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="12;9;6;15;12" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="24" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="16;11;14;18;16" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="8;13;10;6;8" dur="2s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#sparkclip)">
+    <rect x="6" width="4" rx="1.5" fill="#2dd4bf"><animate attributeName="y" values="16;6;14;10;16" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="6;16;8;12;6" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="12" width="4" rx="1.5" fill="#2dd4bf"><animate attributeName="y" values="12;16;8;15;12" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="10;6;14;7;10" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="18" width="4" rx="1.5" fill="#2dd4bf"><animate attributeName="y" values="10;13;16;7;10" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="12;9;6;15;12" dur="2s" repeatCount="indefinite"/></rect>
+    <rect x="24" width="4" rx="1.5" fill="#2dd4bf"><animate attributeName="y" values="14;9;12;16;14" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="8;13;10;6;8" dur="2s" repeatCount="indefinite"/></rect>
+  </g>
   <text x="52" y="16" fill="#94a3b8" font-family="monospace" font-size="10">live telemetry</text>
 </g>
 <!-- bottom accent -->
