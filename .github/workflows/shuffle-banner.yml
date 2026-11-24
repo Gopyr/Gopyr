@@ -1,0 +1,28 @@
+name: Shuffle Banner GIF
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # tiap 6 jam ganti banner
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shuffle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pick random banner
+        id: pick
+        run: |
+          BANNERS=(assets/itachi-banner.gif assets/banner-madara.gif assets/banner-akatsuki.gif)
+          N=$((RANDOM % ${#BANNERS[@]}))
+          echo "banner=${BANNERS[$N]}" >> $GITHUB_OUTPUT
+      - name: Update README
+        run: |
+          sed -i 's|<img src="\./assets/[^"]*" alt="Itachi Uchiha"|<img src="./${{ steps.pick.outputs.banner }}" alt="Itachi Uchiha"|' README.md
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "shuffle: ganti banner [skip ci]"
+          git push
