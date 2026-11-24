@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/banner-madara.gif" alt="Itachi Uchiha" width="100%" />
+  <img src="./${ steps.pick.outputs.banner }" alt="Itachi Uchiha" width="100%" />
 </p>
 
 ## ⚡ Tech Stack
