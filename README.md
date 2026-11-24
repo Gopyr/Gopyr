@@ -6,11 +6,16 @@
   <img src="./assets/banner-zoro.gif" alt="Anime banner" width="100%" />
 </p>
 
-## ⚡ Tech Stack
+## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,typescript,python,kotlin,go,nodejs,react,docker,nginx,git,github,vscode" alt="stack"/>
-</p>
+<div align="center">
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=Gopyr&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="stats" />
+  <img width=390 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gopyr&layout=compact&theme=react&border_radius=10" alt="langs" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Gopyr&theme=react&border_radius=10&locale=id" alt="streak" />
+</div>
 
 ## 🐍 Contributions
 
