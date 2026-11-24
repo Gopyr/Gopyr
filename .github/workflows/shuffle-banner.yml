@@ -28,12 +28,15 @@ jobs:
           N=$((RANDOM % ${#BANNERS[@]}))
           echo "banner=${BANNERS[$N]}" >> $GITHUB_OUTPUT
       - name: Update README
+        env:
+          BANNER: ${{ steps.pick.outputs.banner }}
         run: |
           python3 - <<'EOF'
-          import re, pathlib
+          import re, pathlib, os
           p = pathlib.Path("README.md")
           s = p.read_text()
-          s = re.sub(r'<img src="\./assets/(?:banner|itachi)[^"]*\.gif"', '<img src="./${ steps.pick.outputs.banner }"', s)
+          banner = os.environ["BANNER"]
+          s = re.sub(r'<img src="\./assets/(?:banner|itachi)[^"]*\.gif"', f'<img src="./{banner}"', s)
           p.write_text(s)
           EOF
       - name: Commit
