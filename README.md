@@ -36,6 +36,8 @@
 ## 👁️ Visitors
 
 <div align="center">
+  <img src="https://hits.sh/github.com/Gopyr/Gopyr.svg?style=for-the-badge&label=profile%20views&color=3B82F6" alt="views" />
+  <br/><br/>
   <img src="https://count.getloli.com/@Gopyr?name=Gopyr&theme=moe-regular&padding=6&offset=4&align=center&scale=1.4&pixelated=1&darkmode=auto" alt="moe counter" width="320" />
 </div>
 
