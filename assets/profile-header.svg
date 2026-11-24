@@ -49,10 +49,10 @@
 <!-- live spark bar -->
 <g transform="translate(760,240)">
   <rect x="0" y="0" width="42" height="24" rx="6" fill="#1e293b"/>
-  <rect x="6" y="14" width="4" height="6" rx="2" fill="#2dd4bf"><animate attributeName="height" values="6;16;8;12;6" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="12" y="10" width="4" height="10" rx="2" fill="#2dd4bf"><animate attributeName="height" values="10;6;14;7;10" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="18" y="8" width="4" height="12" rx="2" fill="#2dd4bf"><animate attributeName="height" values="12;9;6;15;12" dur="2s" repeatCount="indefinite"/></rect>
-  <rect x="24" y="12" width="4" height="8" rx="2" fill="#2dd4bf"><animate attributeName="height" values="8;13;10;6;8" dur="2s" repeatCount="indefinite"/></rect>
+  <rect x="6" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="18;8;16;12;18" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="6;16;8;12;6" dur="2s" repeatCount="indefinite"/></rect>
+  <rect x="12" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="14;18;10;17;14" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="10;6;14;7;10" dur="2s" repeatCount="indefinite"/></rect>
+  <rect x="18" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="12;15;18;9;12" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="12;9;6;15;12" dur="2s" repeatCount="indefinite"/></rect>
+  <rect x="24" width="4" rx="2" fill="#2dd4bf"><animate attributeName="y" values="16;11;14;18;16" dur="2s" repeatCount="indefinite"/><animate attributeName="height" values="8;13;10;6;8" dur="2s" repeatCount="indefinite"/></rect>
   <text x="52" y="16" fill="#94a3b8" font-family="monospace" font-size="10">live telemetry</text>
 </g>
 <!-- bottom accent -->
