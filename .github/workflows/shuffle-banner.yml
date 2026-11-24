@@ -13,12 +13,23 @@ jobs:
       - name: Pick random banner
         id: pick
         run: |
-          BANNERS=(assets/itachi-banner.gif assets/banner-madara.gif assets/banner-akatsuki.gif)
+          BANNERS=(
+          'assets/itachi-banner.gif' \
+          'assets/banner-madara.gif' \
+          'assets/banner-akatsuki.gif' \
+          'assets/banner-itachi-crow.gif' \
+          'assets/banner-itachi-crows2.gif' \
+          'assets/banner-itachi-crows3.gif' \
+          'assets/banner-luffy-gear5.gif' \
+          'assets/banner-zoro.gif' \
+          'assets/banner-goku-ui.gif' \
+          'assets/banner-rengoku.gif' \
+          )
           N=$((RANDOM % ${#BANNERS[@]}))
           echo "banner=${BANNERS[$N]}" >> $GITHUB_OUTPUT
       - name: Update README
         run: |
-          sed -i 's|<img src="\./assets/[^"]*" alt="Itachi Uchiha"|<img src="./${{ steps.pick.outputs.banner }}" alt="Itachi Uchiha"|' README.md
+          sed -i 's|<img src="\./assets/banner[^"]*\.gif"|<img src="./${ steps.pick.outputs.banner }"|; s|<img src="\./assets/itachi-banner\.gif"|<img src="./${ steps.pick.outputs.banner }"|' README.md
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
