@@ -1,7 +1,7 @@
 name: Shuffle Banner GIF
 on:
   schedule:
-    - cron: "0 */6 * * *"   # tiap 6 jam ganti banner
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -29,7 +29,13 @@ jobs:
           echo "banner=${BANNERS[$N]}" >> $GITHUB_OUTPUT
       - name: Update README
         run: |
-          sed -i 's|<img src="\./assets/banner[^"]*\.gif"|<img src="./${ steps.pick.outputs.banner }"|; s|<img src="\./assets/itachi-banner\.gif"|<img src="./${ steps.pick.outputs.banner }"|' README.md
+          python3 - <<'EOF'
+          import re, pathlib
+          p = pathlib.Path("README.md")
+          s = p.read_text()
+          s = re.sub(r'<img src="\./assets/(?:banner|itachi)[^"]*\.gif"', '<img src="./${ steps.pick.outputs.banner }"', s)
+          p.write_text(s)
+          EOF
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
