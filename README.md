@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/banner-zoro.gif" alt="Anime banner" width="100%" />
+  <img src="./assets/banner-itachi-crows3.gif" alt="Anime banner" width="100%" />
 </p>
 
 ## 🐍 Contributions
